@@ -1,0 +1,27 @@
+name: base
+channels:
+- defaults
+- pytorch
+- powerai
+- anaconda
+- conda-forge
+- nvidia
+dependencies:
+- python=3.7
+- pip
+- tensorflow-gpu
+- numpy
+- pytorch=1.5.1
+- gym
+- pandas
+- matplotlib
+- torchvision
+- pyglet
+- jupyterlab
+- cudatoolkit=10.1
+- ignite
+- pip:
+  - ipywidgets
+  - tensorboardx
+  - opencv-python
+prefix: /opt/conda
